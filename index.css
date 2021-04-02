@@ -24,6 +24,9 @@ body {
     font-size: 3.5rem;
 }
 
+.writer-header .writer-list-inline {
+    text-align: center;
+}
 /* Lists */
 .writer-list-non-bullet {
     list-style: none;
