@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+:root {
+    --primary-color : #F9A826;
+    --secondary-color : #020403;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: var(--secondary-color);
+    color : var(--primary-color);
+}
+
+/* Header */
+.writer-header {
+    padding: 1.5rem;
+    text-align: right;
+}
+
+.writer-header .writer-header-heading {
+    float: left;
+    width: 560px;
+    padding-top: 15rem;
+    font-size: 3.5rem;
+}
+
+/* Lists */
+.writer-list-non-bullet {
+    list-style: none;
+}
+
+.writer-list-inline > li {
+    display: inline;
+    padding: 0rem 1.5rem;
+}
+
+/* Link */
+.writer-link {
+    color : var(--primary-color);
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.writer-link-active {
+    content: "";
+    width: 6px;
+    height: 6px;
+    transform: translateX(-50%);
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+/* Navigation */
+.writer-nav {
+    padding: 0rem 1rem;
+}
+
+.writer-nav .writer-nav-logo {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+    float:left;
+    width: 65%;
+}
